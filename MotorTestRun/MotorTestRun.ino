@@ -1,8 +1,7 @@
 #include "SparkFun_TB6612.h"
 
-Motor motor_la = Motor(26, 27, A16, 12, 0);
+Motor motor_la = Motor(26, 27, A16, 12, 0);  // IN1, IN2, PWM, STBY, Channel
 Motor motor_lb = Motor(25, 33, A4, 12, 1);
-
 Motor motor_ra = Motor(5, 18, A11, 19, 2);
 Motor motor_rb = Motor(17, 16, A10, 19, 3);
 
